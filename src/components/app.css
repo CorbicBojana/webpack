@@ -1,0 +1,42 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fc766aff;
+  position: relative;
+}
+
+.app .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.app .container .result {
+  height: 40px;
+  width: 87%;
+  margin: 20px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #fc766aff;
+  border: 1px solid #fc766aff;
+}
+
+.app .container .keypad {
+  padding: 20px;
+  outline: none;
+  border: none;
+}
+
+.app .container .keypad .keypadFlex .button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #5b84b1ff;
+  outline: none;
+  cursor: pointer;
+}
